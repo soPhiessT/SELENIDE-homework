@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class SelenideTests {
-    public SelenideTests() {
+    public SelenideTests () {
         Configuration.browserSize = "1920x1080";
         Configuration.browser = "Chrome";
         Configuration.timeout = 20000;
